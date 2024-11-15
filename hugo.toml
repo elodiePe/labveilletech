@@ -18,28 +18,12 @@ googleAnalytics = "UA-PROPERTY_ID"
   weight = 1
 [[menu.main]]
   name = 'Articles'
-  params.header = true
-  weight = 2
-[[menu.main]]
-  name = 'Articles'
   url = '/articles'
   weight = 3
 [[menu.main]]
   name = 'A propos'
   url = '/propos'
-  weight = 4
-[[menu.main]]
-  name = 'Stack'
-  url = '/stack'
-  weight = 5
-[[menu.main]]
-  name = 'Links'
-  params.header = true
-  weight = 6
-[[menu.main]]
-  name = 'Polywork'
-  url = 'https://polywork.com'
-  weight = 7
+  weight = 2
 
 
 [[menu.social]]

@@ -10,25 +10,14 @@ googleAnalytics = "UA-PROPERTY_ID"
   images = ['/digital-garden-logo.png']
   enableSearch = true
 
-[Params.newsletter]
-  title = ""
-  description = "A curated weekly digest once a week to your mailbox"
-
-  # Supports buttondown, substack and revue
-  provider = "buttondown"
-
-  # Buttondown - URL from share page; Refer: https://blog.buttondown.email/2019/10/11/adding-a-buttondown-subscription-form-to-webflow#getting-your-subscription-url
-  # Substack - URL of the newsletter homepage; Example: https://on.substack.com/
-  # Revue - Username
-  path = "https://buttondown.email/api/emails/embed-subscribe/"
 
 [menu]
 [[menu.main]]
-  name = 'Home'
+  name = 'Accueil'
   url = '/'
   weight = 1
 [[menu.main]]
-  name = 'Content'
+  name = 'Articles'
   params.header = true
   weight = 2
 [[menu.main]]
@@ -36,8 +25,8 @@ googleAnalytics = "UA-PROPERTY_ID"
   url = '/articles'
   weight = 3
 [[menu.main]]
-  name = 'Portfolio'
-  url = '/portfolio'
+  name = 'A propos'
+  url = '/propos'
   weight = 4
 [[menu.main]]
   name = 'Stack'
@@ -52,42 +41,16 @@ googleAnalytics = "UA-PROPERTY_ID"
   url = 'https://polywork.com'
   weight = 7
 
-[[menu.social]]
-  name = 'Twitter'
-  url = 'https://twitter.com'
-  weight = 1
+
 [[menu.social]]
   name = 'GitHub'
-  url = 'https://github.com'
-  weight = 2
+  url = 'https://github.com/elodiePe/labveilletech'
+  weight = 1
 [[menu.social]]
   name = 'LinkedIn'
-  url = 'https://linkedin.com'
-  weight = 3
-[[menu.social]]
-  name = 'Instagram'
-  url = 'https://instagram.com'
-  weight = 4
-[[menu.social]]
-  name = 'Dribbble'
-  url = 'https://dribbble.com'
-  weight = 5
-[[menu.social]]
-  name = 'Codepen'
-  url = 'https://codepen.io'
-  weight = 6
-[[menu.social]]
-  name = 'Twitch'
-  url = 'https://twitch.com'
-  weight = 7
-[[menu.social]]
-  name = 'Email'
-  url = 'mailto:user@example.org'
-  weight = 8
-[[menu.social]]
-  name = 'RSS'
-  url = '/articles/index.xml'
-  weight = 9
+  url = 'https://linkedin.com/elodieperring'
+  weight = 2
+
 
 
 # syntax highlight settings

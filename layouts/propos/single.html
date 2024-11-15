@@ -16,8 +16,10 @@
     {{ end }}
 
     {{ with .Params.images }}
+    {{ $image := resources.Get "images/image.png" }}
+
     {{- range first 1 . }}
-    <img class="rounded max-w-full w-full mb-4" src="{{ . }}" alt="{{ $title }}" />
+    <img class="rounded max-w-full w-full mb-4" src={{ $image.RelPermalink }} alt="{{ $title }}" />
     {{ end -}}
     {{ end }}
 

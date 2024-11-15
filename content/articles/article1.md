@@ -1,6 +1,5 @@
 ---
 title: 1. Article numéro 1
-date: 2021-12-19
 images:
 - https://picsum.photos/id/25/400/300
 description: Sprinkles jelly ipsum sweet biscuit marzipan. Jelly dolor biscuit croissant croissant sweet.

@@ -4,6 +4,8 @@
 {{ $date := .Date.Format "January 2, 2006" }}
 {{ $lastmod := .Lastmod.Format "January 2, 2006" }}
 
+
+
 <div class="flex flex-1 h-screen relative w-full min-w-0">
 
   <section
@@ -42,7 +44,10 @@
 
       {{ $title := .Params.title }}
       <h1 class="!mb-2">{{ $title }}</h1>
-
+      {{$source := .Params.source}}
+      {{ if $source }}
+      <p class="text-sm text-slate-500 !mb-8"> Source: <a href="{{ $source }}" target="_blank" rel="noopener noreferrer">{{ $source }}</a></p>
+      {{ end }}
 	  {{ if .Date }}
       <p class="text-sm text-slate-500 !mb-8"> Ecrit {{ $date }}
 		{{ if ne $lastmod $date}}

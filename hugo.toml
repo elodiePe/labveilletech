@@ -1,6 +1,6 @@
 baseURL = "https://example.org/"
-languageCode = "en-us"
-title = "Elodie site web"
+languageCode = "fr-ch"
+title = "Elodie Perring"
 theme = "digitalgarden"
 
 googleAnalytics = "UA-PROPERTY_ID"
